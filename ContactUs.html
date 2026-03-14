@@ -1,87 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body{
+            background-image: url(assets/images/pexels-alena-koval-886521.jpg);
+            background-size: cover;
+        }
+        .head1{
+            float: right;
+            margin-top: 20px;
+            margin-right: 100px;
+            color: rgb(18, 120, 18);
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .para1{
+            float: right;
+            margin-right: 100px;
+            margin-left: 48%;
+            text-align: center;
+            font-size: medium;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-top:0;
+        }
+        .head2{
+            float: right;
+            margin-top: 60px;
+            margin-right: 560px;
+            color: rgb(18, 120, 18);
+            font-size: 18px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .para2{
+            float: right;
+            margin-right: 100px;
+            margin-left: 48%;
+            text-align: center;
+            font-size: medium;
+            font-family:Arial, Helvetica, sans-serif;
+            margin-top:0;
+        }
+        .info{
+            float: right;
+            margin-top: 20px;
+            margin-left: 40%;
+            margin-right: 180px;
+            align-content: center;
+            border:0;
+            background-color: rgba(0, 0, 0, 0.671);
+            color: aliceblue;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+
+        .social-links {
+            display: inline-block;
+            text-align: center;
+            margin-right:400px;
+            margin-top: 10px;
+            float: right;
+            word-spacing: 10px;
+        }
+    </style>
     <link href="assets/images/kisspng-earth-world-map-globe-vector-hand-planet-5a9af8cfde0632.1928504515201056799094.png" rel="icon" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
 </head>
 <body>
-    <nav class="menu">
-        <a href="index.html">
-            <img src="assets/images/kisspng-earth-world-map-globe-vector-hand-planet-5a9af8cfde0632.1928504515201056799094.png" width="40" height="40" alt="Logo">
-            <span class="logo-text">EcoRevive</span>
-        </a>
-        <div class="nav-links">
-            <a href="Reuse.html" class="nav-item">Reuse</a>
-            <a href="Recycle.html" class="nav-item">Recycle</a>
-            <a href="ReThink.html" class="nav-item">Rethink</a>
-            <a href="ContactUs.html" class="nav-item" style="background-color: var(--accent-orange); color: white;">Contact Us</a>
+    <Header>
+        <h1 style="text-align: center; background-color: rgba(244, 244, 244, 0.785); margin:0; padding: 15px; color: rgb(18, 128, 18); text-decoration: overline; font-size: 40px;"><img src="assets/images/kisspng-earth-world-map-globe-vector-hand-planet-5a9af8cfde0632.1928504515201056799094.png" width="40px" height="40px">Contact Us</h1>
+    </Header>
+    <fieldset style="border: 0;">
+        <div class="head1">
+            <h2>Join the Movement: Your Role in the Sustainable Cycle</h2>
         </div>
-    </nav>
+        <p class="para1">Every individual, business, and community plays a crucial role in shaping the future of waste management.
+            By embracing the principles of reduce, reuse, and recycle, we contribute to a sustainable and resilient planet.
+            It's not just about managing waste; it's about creating a legacy of responsible consumption and environmental stewardship.</p>
+        <h3 class="head2">Conclusion: A Call to Action</h3>
+        <p class="para2">The time to act is now. Reuse, recycle, and re-think your choices. Together, let's chart a sustainable course 
+            for waste management and pave the way for a healthier, cleaner, and more vibrant planet. The power to make a difference is 
+            in our hands—let's use it wisely.</p>
+    </fieldset>
+    <section class="social-links">
+        <a href="#"><img src="assets/images/facebook.png" height="30px" width="30px"></a>
+        <a href="#"><img src="assets/images/twitter.png" height="30px" width="30px"></a>
+        <a href="#"><img src="assets/images/instagram.png" height="30px" width="30px"></a>
+        <a href="#"><img src="assets/images/gmail.png" height="30px" width="30px"></a>
+    </section>
 
-    <div class="container" style="background-image: url('assets/images/pexels-alena-koval-886521.jpg'); background-size: cover; color: white;">
-        <div style="background: rgba(0,0,0,0.6); padding: 40px; border-radius: 15px;">
-            <header>
-                <h1 style="text-align: center; color: white; border-bottom: 2px solid white; padding-bottom: 10px;">Contact Us</h1>
-            </header>
 
-            <section style="margin-top: 30px;">
-                <h2>Join the Movement</h2>
-                <p>Every individual, business, and community plays a crucial role in shaping the future of waste management. By embracing the principles of reduce, reuse, and recycle, we contribute to a sustainable and resilient planet.</p>
-                
-                <h3 style="color: white;">Conclusion: A Call to Action</h3>
-                <p>The time to act is now. Reuse, recycle, and re-think your choices. Together, let's chart a sustainable course for waste management and pave the way for a healthier, cleaner, and more vibrant planet.</p>
-            </section>
-
-            <div style="display: flex; gap: 50px; margin-top: 40px; flex-wrap: wrap;">
-                <fieldset class="info" style="flex: 1; min-width: 300px; margin: 0; background: rgba(255,255,255,0.1); backdrop-filter: blur(5px);">
-                    <legend style="color: white; font-weight: bold;">Send us a message</legend>
-                    <label for="email_input">Email:</label>
-                    <input type="email" id="email_input" placeholder="Your Email">
-                    <label for="contact">Contact Number:</label>
-                    <input type="number" id="contact" placeholder="Your Number">
-                    <button style="background: var(--accent-orange); color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; margin-top: 10px; font-weight: bold;">SUBMIT</button>
-                </fieldset>
-
-                <div style="flex: 1; min-width: 300px;">
-                    <h3>Our Team</h3>
-                    <ol type="I" style="color: white;">
-                        <li>Team: Member 1</li>
-                        <ul style="opacity: 0.8;">
-                            <li>Details: [Add Info]</li>
-                        </ul>
-                        <li>Team: Member 2</li>
-                        <ul style="opacity: 0.8;">
-                            <li>Details: [Add Info]</li>
-                        </ul>
-                        <li>Team: Member 3</li>
-                        <ul style="opacity: 0.8;">
-                            <li>Details: [Add Info]</li>
-                        </ul>
-                    </ol>
-                </div>
-            </div>
-        </div>
+    <fieldset class="info">
+        <label for="email_input">Email:</label>
+        <input style="width: 200px; height: 30px; border:0;" id="email_input" type="email" placeholder="Email">
+        <label for="contact"><span>Contact no.</span></label>
+        <input style="width: 200px; height: 30px; border:0;" id="contact" type="number" placeholder="Contact">
+    </fieldset>
+    <div style="float: right; width: fit-content; margin-left: 40%; margin-right: 400px;">
+        <ol type="I" >
+            <li style="color: rgb(15, 139, 15);">Team: Member 1</li>
+                <ul>
+                    <li>Roll no.: </li>
+                    <li>Reg. No.: </li>
+                    <li>Name: </li>
+                </ul>
+            <li style="color: rgb(15, 139, 15);">Team: Member 2</li>
+                <ul>
+                    <li>Roll no.: </li>
+                    <li>Reg. No.: </li>
+                    <li>Name: </li>
+                </ul>
+            <li style="color: rgb(15, 139, 15);">Team: Member 3</li>
+                <ul>
+                    <li>Roll no.: </li>
+                    <li>Reg. No.: </li>
+                    <li>Name: </li>
+                </ul>
+        </ol>
     </div>
 
-    <footer>
-        <h3>About Us</h3>
-        <p>
-            Welcome to a world where waste is not a problem, but a potential solution. 
-            In an era where environmental consciousness is more crucial than ever, it's time to embrace a new approach to waste 
-            management— one that goes beyond the traditional 'reduce, reuse, recycle' mantra. 
-            It's time to Re-Think.
-        </p>
-        
-        <div style="background-color: white; width: 60px; height: 60px; margin: 0 auto; border-radius: 50%; padding: 5px;">
-            <img src="assets/images/kisspng-earth-world-map-globe-vector-hand-planet-5a9af8cfde0632.1928504515201056799094.png" width="50" height="50">
-        </div>
-
-        <section class="social-links">
-            <a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="assets/images/twitter.png" alt="Twitter"></a>
-            <a href="#"><img src="assets/images/instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="assets/images/gmail.png" alt="Gmail"></a>
-        </section>
-    </footer>
 </body>
 </html>
